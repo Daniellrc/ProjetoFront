@@ -1,0 +1,44 @@
+#grid{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 1%;
+}
+.participantes {
+  display: grid;
+  padding: 0%;
+  gap: 1%;
+  background-color: #00142c;
+  padding: 10px;
+  text-align: center;
+}
+
+.participantes img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h2{
+    font-weight: bold;
+}
+footer{
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .participantes img {
+    height: 200px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 530px) {
+  .participantes img {
+    height: auto;
+    object-fit: contain;
+  }
+}

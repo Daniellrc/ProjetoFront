@@ -10,10 +10,10 @@
 
 html, body{
     background-color: #001f31;
-    height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 .barrasup {
     display: flex;
@@ -50,7 +50,7 @@ html, body{
 }
 
 section{
-    padding-top: 100px;
+    padding-top: 140px;
     flex: 1;
 }
 
