@@ -38,6 +38,11 @@ html, body{
     align-items: center;
     gap: 20px;
 }
+.logo-titulo p {
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+}
 
 .logo-titulo img {
     max-width: 40px;
@@ -48,6 +53,12 @@ html, body{
 .links {
     display: flex;
     gap: 40px;
+}
+
+.links p{
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
 }
 
 section{
