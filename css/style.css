@@ -1,0 +1,52 @@
+@font-face {
+    font-family:'minhafonte';
+    src:url("../fonts/NITEMARE.TTF");
+}
+
+*{
+    box-sizing: border-box;
+    color: #337583;
+}
+
+html, body{
+    background-color: #001f31;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.barrasup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #00142c;
+    width: 100%;
+    position: fixed;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+    font-family: minhafonte;
+    padding: 20px;
+    border-bottom: 2px solid #010207;
+}
+
+section{
+    padding-top: 80px;
+    flex: 1;
+}
+
+.rodape{
+    display: grid;
+    place-items: center;
+    gap:20px;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #00142c;
+    width: 100%;
+    font-size: x-large;
+    border-top: 2px solid #010207;
+    padding: 20px;
+    font-family: minhafonte;
+     line-height: 1.2;
+}
