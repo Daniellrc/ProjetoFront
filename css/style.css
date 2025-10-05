@@ -19,7 +19,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-color: #00142c;
     width: 100%;
     position: fixed;
@@ -32,8 +32,25 @@ html, body{
     border-bottom: 2px solid #010207;
 }
 
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-titulo img {
+    max-width: 40px;
+    height: auto;
+    display: block;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
 section{
-    padding-top: 80px;
+    padding-top: 100px;
     flex: 1;
 }
 
@@ -48,5 +65,9 @@ section{
     border-top: 2px solid #010207;
     padding: 20px;
     font-family: minhafonte;
-     line-height: 1.2;
+    line-height: 1.2;
+}
+
+.rotulo {
+    font-weight: bold;
 }
