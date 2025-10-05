@@ -1,4 +1,5 @@
-Os principais recursos que utilizei foram os grids e os flex, 
+Os principais recursos que utilizei foram os grids e os flex, eles são sistemas de layouts para formatar sua página,
+o flexbox serve para alinhas e distribuir os itens de forma de linha ou colunas, enquanto o grid serve para distribuir em linhas e colunas, os locais em que utilizei são:
 
 -style.css:
 
@@ -29,4 +30,4 @@ Linha 24.
 elenco.css
 Linha 2.
 
-Utilizei listas não ordenadas apenas na parte dos extras, dentro do extra.css ela está na linha 25 e dentro do html ela está na linha 43 e 52.
+Utilizei listas não ordenadas para citar algumas coisas que não importava a ordem, foi utilizado apenas na parte dos extras, dentro do extra.css ela está na linha 25 e dentro do html ela está na linha 43 e 52.
